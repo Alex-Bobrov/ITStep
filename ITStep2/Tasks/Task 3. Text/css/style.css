@@ -1,0 +1,34 @@
+h1{
+    font-size: 32px;
+    font-weight: bold;
+}
+h2{
+    font-size: 24px;
+    font-style: italic;
+}
+p{
+    font-size: 14px;
+    font-style: normal; 
+}
+span{
+    color: green;
+}
+span.blue{
+    color: blue;
+}
+span.yellow{
+    color: yellow;
+}
+span.red{
+    color: red;
+}
+span.orange{
+    color: orange;
+}
+span.purple{
+    color: purple;
+}
+img.123{
+    height: 50px; ;
+    width: 50px; ;
+}
