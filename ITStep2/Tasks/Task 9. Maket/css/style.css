@@ -1,0 +1,57 @@
+div{
+    position: relative;
+    float: left;
+    text-align: center;
+    line-height: 100px;
+    color: #fff;
+    font-size: 30px;
+}
+.main{
+    width: 1000px;
+    height: 1600px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    padding: 100px;
+}
+.head-1{
+    width: 400px;
+    height: 400px;
+    background: #000;
+}
+.head-2{
+    width: 600px;
+    height: 400px;
+    background: #333;
+}
+.mid-3{
+    width: 400px;
+    height: 600px;
+    background: rgb(1, 37, 92);
+}
+.mid-12{
+    width: 200px;
+    height: 200px;
+    background: rgb(2, 44, 5);
+}
+.mid-4{
+    width: 400px;
+    height: 200px;
+    background: rgb(82, 81, 32);
+}
+.bot-17{
+    width: 400px;
+    height: 400px;
+    background: #000;
+}
+.bot-18{
+    width: 600px;
+    height: 200px;
+    background: rgb(131, 28, 28);
+}
+.bot-19{
+    width: 600px;
+    height: 200px;
+    background: rgb(211, 137, 0);
+}
