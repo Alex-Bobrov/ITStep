@@ -1,0 +1,31 @@
+.container{
+    
+    position: relative;
+    top: 150px;
+    margin: 0, auto;
+}
+.trapezoid{
+    border-bottom: 100px solid red;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    height: 0;
+    width: 100px;
+}
+.triangle-bottomleft{
+    width: 0;
+    height: 0;
+    border-bottom: 100px solid red;
+    border-right: 100px solid transparent;
+    left: 0px;
+    right: 0px;
+    position: absolute;
+}
+.triangle-bottomright{
+    width: 0;
+    height: 0;
+    border-bottom: 100px solid red;
+    border-left: 100px solid transparent;
+    left: 0px;
+    right: 0px;
+    position: absolute;
+}

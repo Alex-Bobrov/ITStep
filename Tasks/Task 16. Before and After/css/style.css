@@ -1,0 +1,219 @@
+.mail{
+    width: 0;
+    height: 0;
+    border-left: 100px solid rgb(46, 44, 44);
+    border-bottom: 100px solid rgb(46, 44, 44);
+    border-right: 100px solid rgb(46, 44, 44);
+    border-top: 100px solid transparent;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+
+.heart {
+    position: relative;
+    width: 25px;
+    height: 22.5px;
+    left: -10px;
+    top: 45px;
+  }
+.heart:before,
+.heart:after {
+    position: absolute;
+    content: "";
+    left: 12.5px;
+    top: 0;
+    width: 12.5px;
+    height: 20px;
+    background: rgb(190, 117, 129);
+    border-radius: 12.5px 12.5px 0 0;
+    transform: rotate(-45deg);
+    transform-origin: 0 100%;
+}
+.heart:after {
+    left: 0;
+    transform: rotate(45deg);
+    transform-origin: 100% 100%;
+}
+
+.circle {
+    width: 33.3333333333px;
+    height: 33.3333333333px;
+    background: green;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle-1 {
+    width: 3.6666666666px;
+    height: 26.6666666666px;
+    background: black;
+    border-radius: 50%;  
+    transform: rotate(44deg);  
+}
+
+.square {
+    width: 33.3333333333px;
+    height: 33.3333333333px;
+    background: black;
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    transform: rotate(-45deg);
+}
+.eye{
+    position: relative;
+    left: 20px;
+    top: -13px;
+}
+.eye-2{
+    position: relative;
+    left: -50px;
+    top: -45px;
+}
+
+.bodycat {
+    position: relative;
+    width: 300px;
+    height: 270px;
+    transform: rotate(45deg);
+    left: -41px;
+    top: 26px;
+  }
+.bodycat:before,
+.bodycat:after {
+    position: absolute;
+    content: "";
+    left: 150px;
+    top: 0;
+    width: 150px;
+    height: 240px;
+    background: rgb(46, 44, 44);
+    border-radius: 150px 150px 0 0;
+    transform: rotate(-45deg);
+    transform-origin: 0 100%;
+  }
+.bodycat:after {
+    left: 0;
+    transform: rotate(45deg);
+    transform-origin: 100% 100%;
+}
+
+.tail {
+    position: absolute;
+    width: 4em;
+    height: 8em;
+    border: 2px solid white;
+    border-radius: 0 100% 100% 0 / 0 50% 50% 0;
+    background: white;
+    left: 193px;
+    top: 291px;
+  }
+
+.paw {
+    width: 73px;
+    height: 43px;
+    background: rgb(90, 88, 88);
+    border-radius: 100px / 30px;
+    position: absolute;
+    left: 37px;
+    top: 408px;
+  }
+.paw2 {
+    width: 73px;
+    height: 43px;
+    background: rgb(90, 88, 88);
+    border-radius: 100px / 30px;
+    position: absolute;
+    left: 113px;
+    top: 408px;
+}
+
+.stomach {
+    width: 200px;
+    height: 100px;
+    background: rgb(145, 141, 141);
+    border-radius: 100px / 50px;
+    transform: rotate(90deg);
+    position: absolute;
+    left: 12px;
+    top: 260px;
+}
+
+.triangle-down {
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 5px solid rgb(190, 105, 105);
+    position: absolute;
+    left: 101.4px;
+    top: 178px;
+  }
+
+.left {
+    width: 0;
+    height: 0;
+    border-bottom: 100px solid rgb(80, 79, 79);
+    border-right: 100px solid transparent;
+    position: absolute;
+    left: 101.4px;
+    top: 178px;
+}
+a{
+    position: fixed;
+    display: block;
+    color: #fff;
+    background: black;
+    padding: 15px 20px;
+    top: 40px;
+}
+.start{
+    left: calc(50% - 150px);
+}
+.end{
+    left: calc(50% + 30px);
+}
+#box:target .box{
+    animation: rotate 10s linear infinite;
+}
+#box:target .box{
+    animation: run 4s linear infinite,rotate 4s linear 2;
+}
+@keyframes run{
+    0%{
+        width: 3.6666666666px;
+        height: 26.6666666666px;
+        background: black;
+        border-radius: 50%;  
+        transform: rotate(44deg);
+    }
+    50%{
+        width: 26.6666666666px;
+        height: 26.6666666666px;
+        background: black;
+        border-radius: 50%;  
+        transform: rotate(44deg);      
+    }
+    100%{
+        width: 3.6666666666px;
+        height: 26.6666666666px;
+        background: black;
+        border-radius: 50%;  
+        transform: rotate(44deg);      
+    }
+}
+#box:target .triangle-down{
+    animation: run1 4s linear infinite;
+}
+@keyframes run1{
+    0%{
+        border-top: 5px solid rgb(190, 105, 105);
+    }
+    50%{
+        border-top: 20px solid rgb(190, 105, 105);     
+    }
+    100%{
+        border-top: 5px solid rgb(190, 105, 105);     
+    }
+}
