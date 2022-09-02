@@ -1,0 +1,52 @@
+.social-info{
+    position: absolute;
+    width: 1295px;
+    height: 90px;
+    left: 313px;
+    top: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    // background: red;
+}
+
+.social-networks_icons{
+    padding: 0 10px;
+}
+
+.social-networks{
+    display: flex;
+    justify-content: space-between;
+}
+
+.number a{
+    text-decoration: none;
+}
+
+.Our-salons{
+    display: flex;
+}
+
+.Our-salons a{
+    text-decoration: none;
+}
+
+.Our-salons_icon{
+    padding-left: 15px;
+}
+
+.alternative-version{
+    display: flex;
+    align-items: center;
+    padding: 10px 15px 8px;
+    gap: 10px;
+    background: #00868A;
+}
+
+.alternative-version_icon{
+    padding-right: 0px;
+}
+
+.alternative-version_border-box a{
+    text-decoration: none;
+}

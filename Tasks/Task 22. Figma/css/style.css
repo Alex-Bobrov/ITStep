@@ -1,0 +1,68 @@
+.social-info {
+  position: absolute;
+  width: 1295px;
+  height: 90px;
+  left: 313px;
+  top: 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.social-networks_icons {
+  padding: 0 10px;
+}
+
+.social-networks {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.number a {
+  text-decoration: none;
+}
+
+.Our-salons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.Our-salons a {
+  text-decoration: none;
+}
+
+.Our-salons_icon {
+  padding-left: 15px;
+}
+
+.alternative-version {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 10px 15px 8px;
+  gap: 10px;
+  background: #00868A;
+}
+
+.alternative-version_icon {
+  padding-right: 0px;
+}
+
+.alternative-version_border-box a {
+  text-decoration: none;
+}
+/*# sourceMappingURL=style.css.map */
