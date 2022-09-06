@@ -1,0 +1,22 @@
+body {
+  background: #333333;
+}
+
+.Main-block {
+  position: absolute;
+  width: 390px;
+  height: 737px;
+  left: 0px;
+  top: 0px;
+  background: url(../img/Cover.png);
+  background-position: center center;
+}
+
+.Main-block_Header {
+  position: absolute;
+  width: 348px;
+  height: 43px;
+  left: 20px;
+  top: 50px;
+}
+/*# sourceMappingURL=style.css.map */
